@@ -703,7 +703,7 @@ def update_stacked_bar_graph(id):
 
 if __name__ == '__main__':
     # For local development
-    app.run(debug=True)
+    #app.run(debug=True)
     
     # For production deployment
-    #app.run(debug=False, host='0.0.0.0', port=int(os.environ.get('PORT', 8080)))
+    app.run(debug=False, host='0.0.0.0', port=int(os.environ.get('PORT', 8080)))

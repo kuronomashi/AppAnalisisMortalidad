@@ -705,6 +705,8 @@ if __name__ == '__main__':
     # For local development
     #app.run(debug=True)
     # For production deployment
-    port = int(os.environ.get('PORT', 8000))  # Puerto por defecto 10000 si no hay variable de entorno PORT
+    port = int(os.environ.get('PORT', 10000))
     print(f"Iniciando servidor en el puerto {port}")
-    server.run(host='0.0.0.0', port=port)
+    # En Render, necesitamos usar server (la instancia WSGI) en lugar de app
+    # app.server es el objeto WSGI que Gunicorn espera
+    app.server.run(host='0.0.0.0', port=port, debug=False)

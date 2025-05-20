@@ -50,21 +50,6 @@ La aplicación está configurada para ser desplegada en plataformas PaaS como Re
    - Build Command: `pip install -r requirements.txt`
    - Start Command: `gunicorn app:server`
 
-### Railway
-
-1. Crear una cuenta en Railway
-2. Crear un nuevo proyecto
-3. Conectar con el repositorio de GitHub
-4. La aplicación se desplegará automáticamente
-
-### Google App Engine
-
-1. Instalar Google Cloud SDK
-2. Ejecutar:
-```bash
-gcloud init
-gcloud app deploy
-```
 
 ## Estructura de Datos
 

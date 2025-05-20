@@ -1,0 +1,46 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Estilos para los títulos */
+h1 {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+h3 {
+    color: #2980b9;
+    font-weight: 600;
+}
+
+/* Estilos para los contenedores de gráficos */
+.graph-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el texto descriptivo */
+.description {
+    color: #666;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Estilos para los elementos interactivos */
+.dash-graph {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #666;
+    font-size: 0.9em;
+}
